@@ -1,0 +1,16 @@
+<script type="module">
+    import { h, html, render, useState } from '/dist/index.module.js';
+
+    const Example = () => {
+        const [counter, setCounter] = useState(0);
+        const increment = () => setCounter(counter + 1);
+        const decrement = () => setCounter(counter - 1);
+        return html`<div>
+            <span>${counter}</span>
+            <button onClick=${increment}>+</button>
+            <button onClick=${decrement}>-</button>
+        </div>`;
+    };
+
+    render(h(Example), document.body);
+</script>

@@ -1,0 +1,25 @@
+{
+  "name": "swree",
+  "description": "Bundles swr, htm and preact to skip the build step",
+  "version": "0.0.0",
+  "source": "src/index.mjs",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "repository": "git@github.com:kevlened/swree.git",
+  "license": "MIT",
+  "files": [
+      "dist"
+  ],
+  "scripts": {
+    "build": "microbundle build --alias react=$(pwd)/src/preact",
+    "demo": "sirv start .",
+    "release": "npm run build && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+  },
+  "devDependencies": {
+    "htm": "^2.2.1",
+    "microbundle": "^0.11.0",
+    "preact": "^10.0.5",
+    "sirv-cli": "^0.4.5",
+    "swr": "^0.1.12"
+  }
+}
