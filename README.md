@@ -1,5 +1,5 @@
 # swrée
-Bundles these in <6kB to be used without a build step:
+Bundles these in <8kB to be used without a build step:
 
 * [swr](https://github.com/zeit/swr) - data fetching
 * [htm](https://github.com/developit/htm) - buildless jsx

@@ -7,6 +7,7 @@ import {
     Fragment
 } from './preact';
 import htm from 'htm';
+import useSWR from 'swr';
 
 function render(tree, parent) {
 	preactRender(tree, parent, parent.firstElementChild);
@@ -23,5 +24,6 @@ export {
     Component,
     createElement,
 	createContext,
-	Fragment
+    Fragment,
+    useSWR
 };
