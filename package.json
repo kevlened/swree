@@ -1,7 +1,7 @@
 {
   "name": "swree",
   "description": "Bundles swr, htm and preact to skip the build step",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "source": "src/index.mjs",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
