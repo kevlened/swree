@@ -1,9 +1,10 @@
 # swrée
-Bundles these in <8kB to be used without a build step:
+Bundles these in <9kB to be used without a build step:
 
 * [swr](https://github.com/zeit/swr) - data fetching
 * [htm](https://github.com/developit/htm) - buildless jsx
 * [preact](https://github.com/preactjs/preact) - tiny React
+* [wouter](https://github.com/molefrog/wouter) - tiny router
 
 ## Usage
 

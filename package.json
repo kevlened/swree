@@ -8,7 +8,7 @@
   "repository": "git@github.com:kevlened/swree.git",
   "license": "MIT",
   "files": [
-      "dist"
+    "dist"
   ],
   "scripts": {
     "build": "microbundle build --alias react=$(pwd)/src/preact",
@@ -20,6 +20,7 @@
     "microbundle": "^0.11.0",
     "preact": "^10.0.5",
     "sirv-cli": "^0.4.5",
-    "swr": "^0.1.12"
+    "swr": "^0.1.12",
+    "wouter-preact": "^2.4.0"
   }
 }

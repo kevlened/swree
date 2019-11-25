@@ -17,6 +17,7 @@ const html = htm.bind(h);
 
 export * from 'swr';
 export * from 'preact/hooks';
+export * from 'wouter-preact';
 export {
     h,
     html,
